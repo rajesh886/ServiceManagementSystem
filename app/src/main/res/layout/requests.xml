@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@drawable/welcome"
+    tools:context=".UserLogin">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="275dp"
+        android:layout_height="34dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="84dp"
+        android:layout_marginTop="7dp"
+        android:text="Please Enter the following details"
+        android:textAllCaps="true"
+        android:textSize="14dp"
+        android:textColor="#000"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="51dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="110dp"
+        android:text="Full name"
+        android:textColor="#000"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:layout_width="72dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="23dp"
+        android:layout_marginTop="321dp"
+        android:text="Address"
+        android:textColor="#000"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="13dp"
+        android:layout_marginTop="256dp"
+        android:text="Contact No."
+        android:textColor="#000"
+        android:textSize="18sp" />
+
+    <TextView
+        android:layout_width="72dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="27dp"
+        android:layout_marginTop="185dp"
+        android:text="Email"
+        android:textColor="#000"
+        android:textSize="18sp" />
+
+    <TextView
+        android:layout_width="92dp"
+        android:layout_height="84dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="2dp"
+        android:layout_marginTop="414dp"
+        android:text="Problem description"
+        android:textColor="#000"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/fullname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="118dp"
+        android:layout_marginTop="98dp"
+        android:ems="10"
+        android:hint="Braham Khalili"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="118dp"
+        android:layout_marginTop="171dp"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/contact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="244dp"
+        android:ems="10"
+        android:hint="6820001234"
+        android:inputType="number"  />
+
+    <EditText
+        android:id="@+id/address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="119dp"
+        android:layout_marginTop="308dp"
+        android:ems="10"
+        android:hint="Full Address"
+        android:inputType="textPostalAddress" />
+
+    <EditText
+        android:id="@+id/problem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="108dp"
+        android:layout_marginTop="423dp"
+        android:ems="10"
+        android:hint="Refrigerator broken"
+        android:inputType="textPersonName"  />
+
+    <Button
+        android:id="@+id/send"
+        android:layout_width="128dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="136dp"
+        android:layout_marginTop="539dp"
+        android:background="@drawable/custom_button"
+        android:text="Send Request"  />
+
+
+</RelativeLayout>
+
+</ScrollView>

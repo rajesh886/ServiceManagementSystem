@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="payment_array">
+
+    <item>Cash or Cheque</item>
+    <item>Credit or Debit card</item>
+
+    </string-array>
+
+</resources>

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    tools:context=".UserLogin"
+    android:background="@drawable/welcome">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="275dp"
+            android:layout_height="34dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="3dp"
+            android:layout_marginTop="9dp"
+            android:text="Place a bid on"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="#000"/>
+
+        <TextView
+            android:id="@+id/problemname"
+            android:layout_width="275dp"
+            android:layout_height="34dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="1dp"
+            android:layout_marginTop="43dp"
+            android:fontFamily="sans-serif-black"
+            android:text="Problem of the bid"
+            android:textSize="20dp"
+            android:textColor="#000"/>
+
+        <TextView
+            android:layout_width="137dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="1dp"
+            android:layout_marginTop="138dp"
+            android:fontFamily="sans-serif-black"
+            android:text="Paid to you"
+            android:textSize="20dp"
+            android:textColor="#000"/>
+
+        <TextView
+            android:layout_width="288dp"
+            android:layout_height="39dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="1dp"
+            android:layout_marginTop="257dp"
+            android:fontFamily="sans-serif-black"
+            android:text="Fullfillment of Work order in"
+            android:textSize="20dp"
+            android:textColor="#000"/>
+
+        <TextView
+            android:id="@+id/biddisplay"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="443dp"
+            android:fontFamily="sans-serif-black"
+            android:text="total bid amount"
+            android:textSize="20dp"
+            android:textColor="#000"/>
+
+        <EditText
+            android:id="@+id/amount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="1dp"
+            android:layout_marginTop="177dp"
+            android:bufferType="normal"
+            android:ems="10"
+            android:hint="100$"
+            android:selectAllOnFocus="false"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:verticalScrollbarPosition="defaultPosition"
+            android:inputType="number"/>
+
+        <EditText
+            android:id="@+id/days"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="1dp"
+            android:layout_marginTop="327dp"
+            android:ems="10"
+            android:hint="hours"
+            android:selectAllOnFocus="false"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:verticalScrollbarPosition="defaultPosition"/>
+
+        <Button
+            android:id="@+id/bid"
+            android:layout_width="128dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="142dp"
+            android:layout_marginTop="571dp"
+            android:maxLength="100"
+            android:text="Place a bid"
+            android:background="@drawable/custom_button"/>
+
+
+    </RelativeLayout>
+
+</ScrollView>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    app:cardBackgroundColor="#A3E6D3"
+    app:cardElevation="4dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="9"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/rname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:gravity="center_vertical|start"
+                android:text="Full name"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                android:textColor="#000" />
+
+            <TextView
+                android:id="@+id/remail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:gravity="center_vertical|start"
+                android:text="Email"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                android:textColor="#000" />
+
+            <TextView
+                android:id="@+id/rcontact"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:gravity="center_vertical|start"
+                android:text="Contact No."
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                android:textColor="#000"/>
+
+            <TextView
+                android:id="@+id/raddress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:gravity="center_vertical|start"
+                android:text="Address"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                android:textColor="#000" />
+
+            <TextView
+                android:id="@+id/rservice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:gravity="center_vertical|start"
+                android:text="Service"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                android:textColor="#000" />
+
+            <TextView
+                android:id="@+id/rproblem"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:gravity="center_vertical|start"
+                android:text="Problem"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                android:textColor="#000" />
+
+            <Button
+                android:id="@+id/cancel"
+                android:layout_width="181dp"
+                android:layout_height="wrap_content"
+                android:text="Cancel Request"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/custom_button"/>
+
+            <Button
+                android:id="@+id/viewbids"
+                android:layout_width="179dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/custom_button"
+                android:layout_marginTop="5dp"
+                android:text="View Bids" />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

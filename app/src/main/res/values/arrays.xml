@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+     <string-array name="services_array">
+    <item>Appliances</item>
+    <item>Electrical</item>
+    <item>Plumbing</item>
+    <item>Home Cleaning</item>
+    <item>Tutoring</item>
+    <item>Packaging and Moving</item>
+    <item>Computer Repair</item>
+    <item>Home Repair</item>
+    <item>Pest Control</item>
+</string-array>
+</resources>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/welcome"
+    android:orientation="vertical"
+    tools:context=".AppointmentActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:text="Select the appointment day"
+        android:textColor="#000"
+        android:textSize="23sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:text="Office hours: Monday - Friday 10:00am - 5:00 pm"
+        android:textColor="#000"
+        android:textSize="23sp" />
+
+    <TextView
+        android:id="@+id/mydate"
+        android:layout_width="197dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="123dp"
+        android:layout_marginTop="70dp"
+        android:text="Choose your date"
+        android:textColor="#000"
+        android:textSize="23sp" />
+    
+    <LinearLayout
+        android:background="@drawable/custom_button"
+        android:layout_marginLeft="60dp"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content">
+
+        <CalendarView
+            android:id="@+id/calendarView"
+            android:layout_width="wrap_content"
+            android:layout_height="320dp">
+
+        </CalendarView>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/confirm_app"
+        android:layout_width="374dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/custom_button"
+        android:layout_marginLeft="20dp"
+        android:text="Confirm Appointment" />
+
+</LinearLayout>
